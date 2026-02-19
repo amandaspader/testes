@@ -81,4 +81,22 @@
         echo "Não, não é uma String";
     }
 
+    echo "<br>";
+    echo "<br>";
+
+    echo "<h3> Dados Booleanos </h3>";
+    echo "Alguns valores considerados como falso: 0, 0.0, NULL e são utilizados para verificações de condições.";
+
+    echo "<br>";
+
+    echo "<h4>Verificando se um dado é Booleano</h4>";
+
+    $booleano = true;
+
+    if(is_bool($booleano)){
+        echo "Sim, é um booleano.";
+    } else {
+        echo "Não é um booleano.";
+    }
+
 ?>
